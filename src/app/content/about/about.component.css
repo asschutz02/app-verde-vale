@@ -1,0 +1,59 @@
+.container-about {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 770px;
+}
+
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.content-center {
+  justify-content: center;
+}
+
+.div-topic {
+  align-items: center;
+  margin-bottom: 10px
+}
+
+.topic {
+  width: 12px;
+  height: 12px;
+}
+
+.icon-color {
+  color: green;
+  font-size: 33px;
+  width: 40px;
+  padding-bottom: 30px;
+}
+
+.img-about {
+  width: 265px;
+  height: 245px;
+}
+
+.paragraph-about {
+  max-width: 530px;
+  margin-right: 95px
+}
+
+.text-about {
+  color: #008000;
+  font-size: 20px
+}
+
+.padding-left-10 {
+  padding-left: 10px
+}

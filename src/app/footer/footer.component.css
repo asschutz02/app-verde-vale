@@ -1,0 +1,51 @@
+.container-footer {
+  background: #4D6B30;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.icon-color {
+  color: white;
+  font-size: 22px;
+  width: 40px;
+}
+
+.img-footer {
+  width: 70px;
+  height: 67px;
+}
+
+.div-main-footer {
+  display: flex;
+  align-items: center;
+}
+
+.margin-top-5 {
+  margin-top: 5px;
+}
+
+.margin-left-15 {
+  margin-left: 15px;
+}
+
+.white {
+  color: white;
+}
+
+.div-insta-icon {
+  display: flex;
+  cursor: pointer;
+}
+
+.insta-icon {
+  width: 20px;
+}
+
+.div-flex {
+  display: flex;
+}

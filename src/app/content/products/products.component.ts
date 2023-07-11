@@ -1,20 +1,22 @@
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {OwlOptions} from "ngx-owl-carousel-o";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-products',
+  templateUrl: './products.component.html',
+  styleUrls: ['./products.component.css']
 })
-export class AppComponent {
-  title = 'app-verde-vale';
+export class ProductsComponent implements OnInit {
+
+  ngOnInit(): void {}
 
   customOptions: OwlOptions = {
+    autoplay: true,
     loop: true,
     mouseDrag: true,
     touchDrag: true,
     pullDrag: true,
-    dots: true,
+    dots: false,
     navSpeed: 700,
     navText: ['', ''],
     responsive: {
@@ -22,13 +24,13 @@ export class AppComponent {
         items: 1
       },
       400: {
-        items: 2
+        items: 1
       },
       740: {
-        items: 3
+        items: 2
       },
       940: {
-        items: 2
+        items: 1
       }
     },
     nav: true

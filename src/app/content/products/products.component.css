@@ -1,0 +1,45 @@
+.container-products {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 75px;
+}
+
+.icon-color {
+  color: green;
+  font-size: 33px;
+  width: 40px;
+  padding-bottom: 30px;
+  margin-top: 4px;
+}
+
+.img-footer {
+  width: 70px;
+  height: 300px;
+}
+
+.topic {
+  width: 12px;
+  height: 12px;
+}
+
+.div-carousel {
+  width: 100%;
+  max-width: 870px
+}
+
+.padding-left-10 {
+  padding-left: 10px
+}
+
+.text-product {
+  color: #008000;
+  font-size: 20px
+}
+
+.div-topic-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px
+}

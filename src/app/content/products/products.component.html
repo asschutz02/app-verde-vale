@@ -1,0 +1,32 @@
+<div class="container-products">
+  <div class="div-topic-products">
+    <div>
+      <img
+        class="topic"
+        src="../../assets/img/topic.jpeg">
+    </div>
+    <div class="padding-left-10">
+      <span class="text-product">PRODUTOS</span>
+    </div>
+  </div>
+
+  <div class="div-carousel">
+    <owl-carousel-o [options]="customOptions">
+      <ng-template carouselSlide>
+        <img
+          class="img-footer"
+          src="assets/img/img-erva-mate.png">
+      </ng-template>
+      <ng-template carouselSlide>
+        <img
+          class="img-footer"
+          src="assets/img/footer-logo.jpeg">
+      </ng-template>
+      <ng-template carouselSlide>
+        <img
+          class="img-footer"
+          src="assets/img/sobre.jpeg">
+      </ng-template>
+    </owl-carousel-o>
+  </div>
+</div>
